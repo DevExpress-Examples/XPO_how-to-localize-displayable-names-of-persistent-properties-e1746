@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizableDisplayName", "LocalizableDisplayName\LocalizableDisplayName.csproj", "{B8C40E1E-B463-4104-9363-48BB6CA41453}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C40E1E-B463-4104-9363-48BB6CA41453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C40E1E-B463-4104-9363-48BB6CA41453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C40E1E-B463-4104-9363-48BB6CA41453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C40E1E-B463-4104-9363-48BB6CA41453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
