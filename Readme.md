@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/LocalizableDisplayName/Form1.cs) (VB: [Form1.vb](./VB/LocalizableDisplayName/Form1.vb))
+* [Product.cs](./CS/LocalizableDisplayName/Product.cs) (VB: [Product.vb](./VB/LocalizableDisplayName/Product.vb))
+* [Program.cs](./CS/LocalizableDisplayName/Program.cs) (VB: [Program.vb](./VB/LocalizableDisplayName/Program.vb))
+* [PropertyNamesRes.de.resx](./CS/LocalizableDisplayName/PropertyNamesRes.de.resx) (VB: [PropertyNamesRes.de.resx](./VB/LocalizableDisplayName/PropertyNamesRes.de.resx))
+* [PropertyNamesRes.resx](./CS/LocalizableDisplayName/PropertyNamesRes.resx) (VB: [PropertyNamesRes.resx](./VB/LocalizableDisplayName/PropertyNamesRes.resx))
+<!-- default file list end -->
 # How to localize displayable names of persistent properties
 
 
