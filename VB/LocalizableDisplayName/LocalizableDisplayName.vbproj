@@ -74,9 +74,15 @@
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
+    <Compile Include="LocalizableDisplayNameAttribute.vb" />
     <Compile Include="Product.vb" />
     <Compile Include="Program.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="PropertyNamesRes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PropertyNamesRes.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PropertyNamesRes.de.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -91,6 +97,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PropertyNamesRes.resx">
       <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PropertyNamesRes.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

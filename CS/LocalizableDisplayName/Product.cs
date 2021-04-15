@@ -10,7 +10,7 @@ namespace LocalizableDisplayName {
             : base(session) { }
 
         private string _Name;
-        [DXDisplayName(typeof(Product), "PropertyNamesRes", "Product_Name", "neutral name")]
+        [LocalizableDisplayName(typeof(PropertyNamesRes), "Product_Name")]
         public string Name {
             get {
                 return _Name;
@@ -21,7 +21,7 @@ namespace LocalizableDisplayName {
         }
 
         private decimal _Price;
-        [DXDisplayName(typeof(Product), "PropertyNamesRes", "Product_Price", "neutral price")]
+        [LocalizableDisplayName(typeof(PropertyNamesRes), "Product_Price")]
         public decimal Price {
             get {
                 return _Price;
