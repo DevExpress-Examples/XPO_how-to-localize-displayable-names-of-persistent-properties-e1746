@@ -6,7 +6,7 @@
 <!-- default file list end -->
 # How to localize the displayable name of a property
 
-.NET Framework has a built-in mechanism to customize a displayable name. Refer to the [DisplayNameAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.displaynameattribute) description for details.
+The .NET Framework has a built-in mechanism that allows you to customize displayed names. Refer to the [DisplayNameAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.displaynameattribute) description for more information.
 
 You can create a DisplayNameAttribute descendant and override its [DisplayName](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.displaynameattribute.displayname) property. In the DisplayName property getter, retrieve a corresponding value from a resource file. Refer to the following MSDN article for additional information: [Work with .resx files programmatically](https://docs.microsoft.com/en-us/dotnet/framework/resources/working-with-resx-files-programmatically).
 
