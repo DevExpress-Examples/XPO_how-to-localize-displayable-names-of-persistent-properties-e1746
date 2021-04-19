@@ -17,9 +17,6 @@ namespace LocalizableDisplayName {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
 
-            // make the DXDisplayName attribute load resources via a standard resource fallback process
-            System.ComponentModel.DXDisplayNameAttribute.UseResourceManager = true;
-
             // init XPO data layer
             XpoDefault.DataLayer = XpoDefault.GetDataLayer(AutoCreateOption.DatabaseAndSchema);
 
