@@ -29,7 +29,7 @@ public string Name {
 
 Note: If Visual Studio does not generate a new file after you change the **Custom Tool** property to **ResXFileCodeGenerator**, right-click the resource file in the Solution Explorer window and click the **Run Custom Tool** menu item.
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-localize-displayable-names-of-persistent-properties-e1746&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-localize-displayable-names-of-persistent-properties-e1746&~~~was_helpful=no)
 
